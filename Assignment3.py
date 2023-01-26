@@ -1,4 +1,3 @@
-'''
 #Program 2: Create a vector and reshape it to 4/5 followed by replacing highest value in each row
 
 import numpy as np
@@ -12,7 +11,6 @@ print(max_values)
 reshaped_vector[np.arange(reshaped_vector.shape[0]), max_values] = 0
 print("reshaped_vector with replacement of highest values:", reshaped_vector)
 
-'''
 
 #Program 1:
 class EmployeeClass:
